@@ -1,9 +1,13 @@
-name: example-environment
+name: CADD-environment
 channels:
   - conda-forge
 dependencies:
   - python
   - numpy
+  - openbabel
+  - nglview
+  - plotly
+  - rdkit rdkit
   - pip
   - pip:
     - nbgitpuller
