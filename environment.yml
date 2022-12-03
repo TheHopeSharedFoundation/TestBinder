@@ -32,6 +32,7 @@ dependencies:
     - mdtraj
     - openbabel
     - plotly
+    - jupyter_contrib_nbextensions
     - pip:
       - nbgitpuller
       - sphinx-gallery
