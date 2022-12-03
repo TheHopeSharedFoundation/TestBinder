@@ -7,7 +7,7 @@ dependencies:
   - openbabel
   - nglview
   - plotly
-  - rdkit rdkit
+  - rdkit
   - pip
   - pip:
     - nbgitpuller
