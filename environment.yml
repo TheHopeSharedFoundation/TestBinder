@@ -1,17 +1,46 @@
 name: CADD-environment
 channels:
-  - conda-forge
+    - conda-forge
+
 dependencies:
-  - python
-  - numpy
-  - openbabel
-  - nglview
-  - plotly
-  - rdkit
-  - pip
-  - pip:
-    - nbgitpuller
-    - sphinx-gallery
+    - python>=3.6
+    - pip
+    - pytest
+    - jupyterlab
+    - nodejs
+    - yarn
+    - ipywidgets==7.*
+
+    # Testing
+    - mock
+    - coverage
+    - nose
+    - pytest
+    - pytest-cov
+    - coveralls
+
+    # Scientific
+    - numpy
     - pandas
+    - ase
+    - parmed
+    - biopython
+    - pymatgen
+    - simpletraj
+    - rdkit
+    - mdanalysis
+    - mdtraj
+    - openbabel
+    - plotly
+    - pip:
+      - nbgitpuller
+      - sphinx-gallery
+      - pandas
+      - matplotlib
+      - nglview
+
+    # Movie making
     - matplotlib
-jupyter-nbextension enable nglview --py --sys-prefix
+    - moviepy
+    - imageio
+    - pillow
