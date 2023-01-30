@@ -6,7 +6,7 @@ dependencies:
     - python>=3.6
     - pip
     - jupyterlab
-    - tmap
+    - tmap tmap
     - faerun
     - mhfp.encoder
     - jupyter_contrib_nbextensions
