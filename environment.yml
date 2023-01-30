@@ -1,0 +1,16 @@
+name: CADD-environment
+channels:
+    - conda-forge
+
+dependencies:
+    - python>=3.6
+    - pip
+    - jupyterlab
+    - tmap
+    -faerun
+    -mhfp.encoder
+    - jupyter_contrib_nbextensions
+    - pip:
+      - pandas
+
+
