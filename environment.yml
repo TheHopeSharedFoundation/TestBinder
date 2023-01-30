@@ -7,8 +7,8 @@ dependencies:
     - pip
     - jupyterlab
     - tmap
-    -faerun
-    -mhfp.encoder
+    - faerun
+    - mhfp.encoder
     - jupyter_contrib_nbextensions
     - pip:
       - pandas
